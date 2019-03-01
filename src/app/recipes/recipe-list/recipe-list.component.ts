@@ -7,7 +7,8 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.scss']
 })
 export class RecipeListComponent implements OnInit {
-    recipes:Recipe[]=[new Recipe('The test','this is simplytesty','https://www.sbs.com.au/food/sites/sbs.com.au.food/files/IMG_1105.jpg')];
+    recipes:Recipe[]=[new Recipe('The test','this is simplytesty','https://www.sbs.com.au/food/sites/sbs.com.au.food/files/IMG_1105.jpg'),
+    new Recipe('The test','this is simplytesty','https://www.sbs.com.au/food/sites/sbs.com.au.food/files/IMG_1105.jpg')];
   constructor() { }
 
   ngOnInit() {
